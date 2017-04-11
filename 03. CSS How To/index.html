@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>CSS How To...</title>
+
+    <link rel="stylesheet" href="../assets/css/w3.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+
+<div class="w3-row w3-margin">
+    <div class="w3-col l2 m1 min"></div>
+
+    <div class="w3-col l8 m10">
+        <h1>CSS How To...</h1>
+
+        <h3>Three Ways to Insert CSS</h3>
+
+        <div class="w3-panel w3-info">
+            <!--<ul class="w3-leftbar w3-border w3-border-green w3-padding-8">-->
+            <ul>
+                <li>External style sheet</li>
+                <li>Internal style sheet</li>
+                <li>Inline style</li>
+            </ul>
+        </div>
+
+        <h3>Cascading Order</h3>
+
+        <div class="w3-panel w3-info">
+            <p>What style will be used when there is more than one style specified for an HTML element?</p>
+            <p>Generally speaking we can say that all the styles will "cascade" into a new "virtual" style
+                sheet by the following rules, where number one has the highest priority:</p>
+            <ol>
+                <li>Inline style (inside an HTML element)</li>
+                <li>External and internal style sheets (in the head section)</li>
+                <li>Browser default</li>
+            </ol>
+            <p>So, an inline style (inside a specific HTML element) has the highest priority, which means that it will
+                override a style defined inside the &lt;head&gt; tag, or in
+                an external style sheet, or a browser default value.</p>
+        </div>
+    </div>
+
+    <div class="w3-col l2 m1"></div>
+</div>
+
+</body>
+</html>
